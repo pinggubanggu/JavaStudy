@@ -11,7 +11,7 @@ public class Variable_And_Method_Call {
 		}
 		
 		static void staticMethod() {	// static 메서드
-			System.out.println(iv);		// 에러!! 인스턴스 변수를 사용할 수 없다.
+//			System.out.println(iv);		// 에러!! 인스턴스 변수를 사용할 수 없다.
 			System.out.println(cv);
 		}
 

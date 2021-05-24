@@ -2,7 +2,7 @@ package referenceType;
 
 public class MyTv {
 	boolean isPowerOn;
-	int channel;
+	int channel = 1;
 	int volume;
 	
 	final int MAX_VOLUME = 100;

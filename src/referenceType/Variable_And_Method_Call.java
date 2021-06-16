@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 public class Variable_And_Method_Call {
 

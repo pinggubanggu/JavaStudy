@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 class Data3 { int x; }
 public class Reference_Return_Type {

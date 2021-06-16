@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 class MyMath2 {
 	long a,b;

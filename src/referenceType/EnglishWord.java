@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 import java.util.Scanner;
 

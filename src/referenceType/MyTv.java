@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 public class MyTv {
 	boolean isPowerOn;

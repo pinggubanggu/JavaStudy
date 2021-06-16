@@ -1,10 +1,9 @@
 package referencetype;
 
-public class Homework {
+public class ExceptionExample {
 
 	public static void main(String[] args) {
-		Account acc = new Account();
-		acc.init();
+	
 
 	}
 

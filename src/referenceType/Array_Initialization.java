@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 public class Array_Initialization {
 	static int[] arr = new int[10];

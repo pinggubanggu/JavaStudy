@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
  class Car2 {
 	String color;

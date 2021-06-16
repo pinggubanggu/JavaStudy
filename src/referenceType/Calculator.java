@@ -1,4 +1,4 @@
-package referenceType;
+package referencetype;
 
 class Cal {
 	int add(int a, int b) {

@@ -1,7 +1,6 @@
-package JavaStudy06;
+package javaStudy06;
 
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 

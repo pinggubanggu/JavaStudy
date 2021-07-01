@@ -1,7 +1,6 @@
-package JavaStudy06;
+package javaStudy06;
 
 import java.time.LocalDate;
-import java.time.Period;
 
 public class LocalDateExample01 {
     public static void main(String[] args) {

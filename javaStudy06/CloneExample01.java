@@ -1,4 +1,4 @@
-package JavaStudy06;
+package javaStudy06;
 
 public class CloneExample01 implements Cloneable{   // 1. Cloneable인터페이스를 구현한다.
 

@@ -1,4 +1,4 @@
-package JavaStudy06;
+package javaStudy06;
 
 public class Circle implements Cloneable {
 

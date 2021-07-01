@@ -1,4 +1,4 @@
-package JavaStudy06;
+package javaStudy06;
 
 import java.util.LinkedList;
 import java.util.ListIterator;

@@ -1,4 +1,4 @@
-package javastudy06_2;
+package src.javastudy06_2;
 
 import java.util.ArrayList;
 import java.util.Calendar;

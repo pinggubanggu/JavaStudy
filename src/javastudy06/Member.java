@@ -1,6 +1,6 @@
-package javastudy06;
+package src.javastudy06;
 
-public class Member {
+class Member {
 	
 	int memberNo;
 	String memberId;	// int 대신에  String으로

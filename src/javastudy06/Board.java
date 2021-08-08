@@ -1,4 +1,4 @@
-package javastudy06;
+package src.javastudy06;
 
 public class Board {
 

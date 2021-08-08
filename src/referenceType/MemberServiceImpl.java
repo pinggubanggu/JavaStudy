@@ -1,4 +1,4 @@
-package referencetype;
+package src.referenceType;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -149,7 +149,6 @@ public class MemberServiceImpl implements MemberService {
 		
 	}
 
-	@Override
 	public void update() {
 		System.out.println("아이디 입력 :");
 		String input = scanner.next();

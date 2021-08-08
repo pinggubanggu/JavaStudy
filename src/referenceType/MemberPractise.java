@@ -1,4 +1,6 @@
-package referencetype;
+package src.referenceType;
+
+import src.referenceType.MemberServiceImpl;
 
 public class MemberPractise {
 

@@ -1,4 +1,4 @@
-package javastudy06;
+package src.javastudy06;
 
 import java.util.LinkedList;
 import java.util.List;

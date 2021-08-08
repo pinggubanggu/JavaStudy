@@ -1,4 +1,4 @@
-package javastudy06_2;
+package src.javastudy06_2;
 
 public interface MemberService {
 	

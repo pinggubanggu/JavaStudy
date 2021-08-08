@@ -1,4 +1,4 @@
-package referencetype;
+package src.referenceType;
 
 public interface MemberService {
 	

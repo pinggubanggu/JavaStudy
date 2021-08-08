@@ -1,6 +1,6 @@
 package shoppingBasket;
 
-public class Member {
+ class Member {
     String id;
     String pw;
 

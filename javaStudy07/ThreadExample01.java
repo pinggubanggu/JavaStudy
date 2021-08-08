@@ -1,6 +1,6 @@
 package javaStudy07;
 
-public class ThreadExmaple01 {
+public class ThreadExample01 {
         public static void main(String[] args) {
             Thread01 t1 = new Thread01();
 

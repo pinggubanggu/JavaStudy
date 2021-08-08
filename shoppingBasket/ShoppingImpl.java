@@ -105,6 +105,8 @@ public class ShoppingImpl implements Shopping {
                     String pw = sc.next();
                     // nextLine()는 Enter값을 기준으로 메소드를 종료시킨다. next()는 문자열만 리턴하고 종료 -> Enter값이 남아있음.
                     sc.nextLine();  // 엔터값이 남아있어서 이걸로 흡수
+
+                    // 아니면 그냥 String pw = sc.nextLine()을 쓴다.
                     
                     if (findById().getPw().equals(pw)) {
                         System.out.println("로그인 되었습니다.");

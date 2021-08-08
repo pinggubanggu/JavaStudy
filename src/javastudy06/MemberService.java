@@ -1,4 +1,4 @@
-package javastudy06;
+package src.javastudy06;
 
 /**
  * 게시판 기본 설계도

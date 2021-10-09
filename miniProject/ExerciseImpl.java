@@ -40,15 +40,14 @@ public class ExerciseImpl implements Exercise{
 //    int todayDay= today.get(Calendar.DAY_OF_WEEK);
 //    if(todayDay==1) { // 예약하는 시점이 일요일때만 시간표 업데이트 하기
 
-    List<String> reserveDays2 = new ArrayList<>();
-
-    for (int i = 1; i <= 5; i++) {
-      yogaFirstTime.add(new Yoga());
-      yogaSecondTime.add(new Yoga());
-      resDays.add(" ");
-    }
+//    List<String> reserveDays2 = new ArrayList<>();
 
     for (int index = 0, day = 2; day <= 6; index++, day++) {
+      
+        yogaFirstTime.add(new Yoga());
+        yogaSecondTime.add(new Yoga());
+//      resDays.add(" ");
+
       String fileName = ".\\src\\miniProject\\" + day + ".txt"; // day = 2,3,4,5,6
       // 파일에 있는 문장들을 한줄씩 읽어서 String타입의 stream으로 반환;
       Stream<String> stream = Files.lines(Paths.get(fileName), Charset.forName("UTF-8"));
@@ -282,7 +281,7 @@ public class ExerciseImpl implements Exercise{
 
       id = sc.nextLine();
 
-      if(map.size() == 0)
+      if(map.isEmpty())
         System.out.println("회원가입을 먼저 해주세요.");
 
       Predicate<String> predicate = id -> map.containsKey(id);  // 지정된 키(id)가 포함되어 있는지 알려준다.
@@ -487,6 +486,8 @@ public class ExerciseImpl implements Exercise{
           String[] s = map.get(id).getReserveDays();
 
           // 예약인원--
+          // TODO 공백있을시 위험
+          // FIXME
           int classNumber = s[ytIndex].indexOf(')') + 2;
           if (classNumber == 1) {
             yogaFirstTime.get(ytIndex).setMinusAttendee();

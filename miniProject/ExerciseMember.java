@@ -12,7 +12,7 @@ public class ExerciseMember {
   private int registerMonth;
   private int couponNumber;
   private String[] reserveDays = new String[5];
-//  private List<String> reserveDays2 = new ArrayList<>();
+  private List<String> reserveDays2 = new ArrayList<>();
 
   public ExerciseMember(String id, String password, String startDay, String endDay, int registerMonth, int couponNumber) {
     this.id = id;
@@ -87,11 +87,11 @@ public class ExerciseMember {
     this.reserveDays = reserveDays;
   }
 
-//  public List<String> getReserveDays2() {
-//    return reserveDays2;
-//  }
-//
-//  public void setReserveDays2(List<String> reserveDays2) {
-//    this.reserveDays2 = reserveDays2;
-//  }
-//}
+  public List<String> getReserveDays2() {
+    return reserveDays2;
+  }
+
+  public void setReserveDays2(List<String> reserveDays2) {
+    this.reserveDays2 = reserveDays2;
+  }
+}
